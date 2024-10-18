@@ -1,0 +1,625 @@
+Ejecutando con 1 nodos y 1 núcleos
+Time for MPI_Bcast: 0.000001 seconds
+Process 0 Memory Usage: 75320 kilobytes
+Time for MPI_Scatter: 0.016327 seconds
+Process 0 Memory Usage: 106528 kilobytes
+Process 0 Time for local matrix multiplication: 65.079299 seconds
+Process 0 Memory Usage: 137944 kilobytes
+Time for MPI_Gather: 0.016763 seconds
+Process 0 Memory Usage: 169148 kilobytes
+
+--- Matrix Multiplication Results ---
+n: 4000000 (Array size)
+GT: 0.016763 seconds (Generation Time)
+CT: 0.016763 seconds (Calculation Time)
+Total Memory Used: 169148 kilobytes
+Ejecutando con 1 nodos y 2 núcleos
+Process 1 Memory Usage: 44256 kilobytes
+Time for MPI_Bcast: 0.009229 seconds
+Process 0 Memory Usage: 75172 kilobytes
+Time for MPI_Scatter: 0.013505 seconds
+Process 0 Memory Usage: 90868 kilobytes
+Process 1 Memory Usage: 59888 kilobytes
+Process 1 Time for local matrix multiplication: 31.940967 seconds
+Process 1 Memory Usage: 75464 kilobytes
+Process 0 Time for local matrix multiplication: 32.264507 seconds
+Process 0 Memory Usage: 106708 kilobytes
+Process 1 Memory Usage: 75464 kilobytes
+Time for MPI_Gather: 0.013780 seconds
+Process 0 Memory Usage: 137920 kilobytes
+
+--- Matrix Multiplication Results ---
+n: 4000000 (Array size)
+GT: 0.013780 seconds (Generation Time)
+CT: 0.013780 seconds (Calculation Time)
+Total Memory Used: 137920 kilobytes
+Ejecutando con 1 nodos y 4 núcleos
+Time for MPI_Bcast: 0.009246 seconds
+Process 0 Memory Usage: 75232 kilobytes
+Process 1 Memory Usage: 44228 kilobytes
+Process 1 Memory Usage: 52240 kilobytes
+Process 2 Memory Usage: 44204 kilobytes
+Process 3 Memory Usage: 44188 kilobytes
+Process 2 Memory Usage: 52252 kilobytes
+Time for MPI_Scatter: 0.025641 seconds
+Process 0 Memory Usage: 83244 kilobytes
+Process 3 Memory Usage: 52196 kilobytes
+Process 3 Time for local matrix multiplication: 16.901096 seconds
+Process 3 Memory Usage: 59852 kilobytes
+Process 1 Time for local matrix multiplication: 16.943059 seconds
+Process 1 Memory Usage: 59896 kilobytes
+Process 2 Time for local matrix multiplication: 16.951493 seconds
+Process 2 Memory Usage: 59908 kilobytes
+Process 0 Time for local matrix multiplication: 17.749637 seconds
+Process 0 Memory Usage: 91236 kilobytes
+Process 1 Memory Usage: 59896 kilobytes
+Process 2 Memory Usage: 59908 kilobytes
+Process 3 Memory Usage: 59852 kilobytes
+Time for MPI_Gather: 0.012663 seconds
+Process 0 Memory Usage: 122448 kilobytes
+
+--- Matrix Multiplication Results ---
+n: 4000000 (Array size)
+GT: 0.012663 seconds (Generation Time)
+CT: 0.012663 seconds (Calculation Time)
+Total Memory Used: 122448 kilobytes
+Ejecutando con 1 nodos y 8 núcleos
+Process 3 Memory Usage: 44340 kilobytes
+Process 2 Memory Usage: 44232 kilobytes
+Process 6 Memory Usage: 44268 kilobytes
+Process 5 Memory Usage: 44296 kilobytes
+Process 7 Memory Usage: 44184 kilobytes
+Process 4 Memory Usage: 44108 kilobytes
+Process 1 Memory Usage: 44232 kilobytes
+Time for MPI_Bcast: 0.032127 seconds
+Process 0 Memory Usage: 75644 kilobytes
+Process 1 Memory Usage: 48248 kilobytes
+Process 2 Memory Usage: 48240 kilobytes
+Process 3 Memory Usage: 48352 kilobytes
+Process 4 Memory Usage: 48104 kilobytes
+Process 5 Memory Usage: 48284 kilobytes
+Process 6 Memory Usage: 48284 kilobytes
+Process 7 Memory Usage: 48192 kilobytes
+Time for MPI_Scatter: 0.014285 seconds
+Process 0 Memory Usage: 79912 kilobytes
+Process 2 Time for local matrix multiplication: 19.256250 seconds
+Process 2 Memory Usage: 52200 kilobytes
+Process 3 Time for local matrix multiplication: 19.257517 seconds
+Process 3 Memory Usage: 52312 kilobytes
+Process 3 Memory Usage: 52312 kilobytes
+Process 4 Time for local matrix multiplication: 19.294521 seconds
+Process 4 Memory Usage: 52064 kilobytes
+Process 5 Time for local matrix multiplication: 19.295554 seconds
+Process 5 Memory Usage: 52244 kilobytes
+Process 5 Memory Usage: 52244 kilobytes
+Process 6 Time for local matrix multiplication: 19.312773 seconds
+Process 6 Memory Usage: 52244 kilobytes
+Process 7 Time for local matrix multiplication: 19.313301 seconds
+Process 7 Memory Usage: 52152 kilobytes
+Process 1 Time for local matrix multiplication: 19.323937 seconds
+Process 1 Memory Usage: 52208 kilobytes
+Process 7 Memory Usage: 52152 kilobytes
+Process 6 Memory Usage: 60000 kilobytes
+Process 0 Time for local matrix multiplication: 19.372495 seconds
+Process 0 Memory Usage: 83608 kilobytes
+Process 1 Memory Usage: 52208 kilobytes
+Process 2 Memory Usage: 59956 kilobytes
+Time for MPI_Gather: 0.012517 seconds
+Process 0 Memory Usage: 115084 kilobytes
+
+--- Matrix Multiplication Results ---
+n: 4000000 (Array size)
+GT: 0.012517 seconds (Generation Time)
+CT: 0.012517 seconds (Calculation Time)
+Total Memory Used: 115084 kilobytes
+Process 4 Memory Usage: 67780 kilobytes
+Ejecutando con 2 nodos y 16 núcleos
+Process 4 Memory Usage: 44408 kilobytes
+Time for MPI_Bcast: 2.767255 seconds
+Process 0 Memory Usage: 75748 kilobytes
+Process 5 Memory Usage: 44624 kilobytes
+Process 6 Memory Usage: 44428 kilobytes
+Process 2 Memory Usage: 44560 kilobytes
+Process 1 Memory Usage: 44488 kilobytes
+Process 3 Memory Usage: 44592 kilobytes
+Process 7 Memory Usage: 44544 kilobytes
+Process 12 Memory Usage: 44664 kilobytes
+Process 8 Memory Usage: 44920 kilobytes
+Process 13 Memory Usage: 44432 kilobytes
+Process 9 Memory Usage: 44368 kilobytes
+Process 14 Memory Usage: 44528 kilobytes
+Process 10 Memory Usage: 44536 kilobytes
+Process 11 Memory Usage: 44524 kilobytes
+Process 15 Memory Usage: 44684 kilobytes
+Process 1 Memory Usage: 46656 kilobytes
+Process 2 Memory Usage: 46728 kilobytes
+Process 3 Memory Usage: 46760 kilobytes
+Process 4 Memory Usage: 46576 kilobytes
+Process 5 Memory Usage: 46792 kilobytes
+Process 6 Memory Usage: 46596 kilobytes
+Process 9 Memory Usage: 46536 kilobytes
+Process 7 Memory Usage: 46712 kilobytes
+Process 10 Memory Usage: 46648 kilobytes
+Time for MPI_Scatter: 1.376608 seconds
+Process 0 Memory Usage: 93676 kilobytes
+Process 11 Memory Usage: 46692 kilobytes
+Process 12 Memory Usage: 46832 kilobytes
+Process 13 Memory Usage: 46544 kilobytes
+Process 14 Memory Usage: 46696 kilobytes
+Process 15 Memory Usage: 46852 kilobytes
+Process 8 Memory Usage: 62664 kilobytes
+Process 11 Time for local matrix multiplication: 8.678514 seconds
+Process 11 Memory Usage: 48540 kilobytes
+Process 10 Time for local matrix multiplication: 8.681133 seconds
+Process 10 Memory Usage: 48496 kilobytes
+Process 9 Time for local matrix multiplication: 8.684793 seconds
+Process 9 Memory Usage: 48384 kilobytes
+Process 8 Time for local matrix multiplication: 8.684170 seconds
+Process 8 Memory Usage: 62664 kilobytes
+Process 12 Time for local matrix multiplication: 8.688759 seconds
+Process 12 Memory Usage: 48680 kilobytes
+Process 13 Time for local matrix multiplication: 8.688169 seconds
+Process 13 Memory Usage: 48392 kilobytes
+Process 15 Time for local matrix multiplication: 8.709995 seconds
+Process 15 Memory Usage: 48700 kilobytes
+Process 14 Time for local matrix multiplication: 8.745005 seconds
+Process 14 Memory Usage: 48544 kilobytes
+Process 3 Time for local matrix multiplication: 9.679954 seconds
+Process 3 Memory Usage: 48608 kilobytes
+Process 2 Time for local matrix multiplication: 9.690210 seconds
+Process 2 Memory Usage: 48576 kilobytes
+Process 4 Time for local matrix multiplication: 9.704101 seconds
+Process 4 Memory Usage: 48424 kilobytes
+Process 5 Time for local matrix multiplication: 9.708320 seconds
+Process 5 Memory Usage: 48640 kilobytes
+Process 1 Time for local matrix multiplication: 9.745712 seconds
+Process 1 Memory Usage: 48504 kilobytes
+Process 0 Time for local matrix multiplication: 9.755226 seconds
+Process 0 Memory Usage: 93676 kilobytes
+Process 6 Time for local matrix multiplication: 9.758660 seconds
+Process 6 Memory Usage: 48444 kilobytes
+Process 7 Time for local matrix multiplication: 9.783721 seconds
+Process 7 Memory Usage: 48560 kilobytes
+Process 5 Memory Usage: 48640 kilobytes
+Process 3 Memory Usage: 48608 kilobytes
+Process 7 Memory Usage: 48560 kilobytes
+Process 1 Memory Usage: 48504 kilobytes
+Process 13 Memory Usage: 48392 kilobytes
+Process 11 Memory Usage: 48540 kilobytes
+Process 15 Memory Usage: 48700 kilobytes
+Process 9 Memory Usage: 48384 kilobytes
+Process 6 Memory Usage: 52456 kilobytes
+Process 2 Memory Usage: 52536 kilobytes
+Process 14 Memory Usage: 52564 kilobytes
+Process 10 Memory Usage: 52516 kilobytes
+Process 4 Memory Usage: 56396 kilobytes
+Process 12 Memory Usage: 56660 kilobytes
+Process 8 Memory Usage: 64516 kilobytes
+Time for MPI_Gather: 1.407323 seconds
+Process 0 Memory Usage: 126760 kilobytes
+
+--- Matrix Multiplication Results ---
+n: 4000000 (Array size)
+GT: 1.407323 seconds (Generation Time)
+CT: 1.407323 seconds (Calculation Time)
+Total Memory Used: 126760 kilobytes
+Ejecutando con 4 nodos y 32 núcleos
+Process 4 Memory Usage: 44368 kilobytes
+Time for MPI_Bcast: 8.177479 seconds
+Process 0 Memory Usage: 75816 kilobytes
+Process 5 Memory Usage: 44564 kilobytes
+Process 1 Memory Usage: 44448 kilobytes
+Process 6 Memory Usage: 44384 kilobytes
+Process 2 Memory Usage: 44416 kilobytes
+Process 3 Memory Usage: 44400 kilobytes
+Process 7 Memory Usage: 44544 kilobytes
+Process 12 Memory Usage: 44780 kilobytes
+Process 8 Memory Usage: 44996 kilobytes
+Process 13 Memory Usage: 44616 kilobytes
+Process 9 Memory Usage: 44328 kilobytes
+Process 10 Memory Usage: 44504 kilobytes
+Process 11 Memory Usage: 44720 kilobytes
+Process 15 Memory Usage: 44532 kilobytes
+Process 14 Memory Usage: 44624 kilobytes
+Process 20 Memory Usage: 44608 kilobytes
+Process 16 Memory Usage: 45028 kilobytes
+Process 21 Memory Usage: 44524 kilobytes
+Process 17 Memory Usage: 44432 kilobytes
+Process 22 Memory Usage: 44532 kilobytes
+Process 18 Memory Usage: 44544 kilobytes
+Process 23 Memory Usage: 44692 kilobytes
+Process 19 Memory Usage: 44552 kilobytes
+Process 28 Memory Usage: 44632 kilobytes
+Process 24 Memory Usage: 45004 kilobytes
+Process 29 Memory Usage: 44520 kilobytes
+Process 25 Memory Usage: 44456 kilobytes
+Process 30 Memory Usage: 44424 kilobytes
+Process 26 Memory Usage: 44624 kilobytes
+Process 27 Memory Usage: 44444 kilobytes
+Process 31 Memory Usage: 44396 kilobytes
+Process 15 Memory Usage: 45644 kilobytes
+Process 14 Memory Usage: 45736 kilobytes
+Process 13 Memory Usage: 45672 kilobytes
+Process 12 Memory Usage: 45892 kilobytes
+Process 11 Memory Usage: 45832 kilobytes
+Process 10 Memory Usage: 45616 kilobytes
+Process 9 Memory Usage: 45384 kilobytes
+Process 8 Memory Usage: 53764 kilobytes
+Process 23 Memory Usage: 45804 kilobytes
+Process 22 Memory Usage: 45588 kilobytes
+Process 20 Memory Usage: 45720 kilobytes
+Process 19 Memory Usage: 45664 kilobytes
+Process 21 Memory Usage: 45632 kilobytes
+Process 18 Memory Usage: 45656 kilobytes
+Process 17 Memory Usage: 45536 kilobytes
+Process 16 Memory Usage: 53740 kilobytes
+Process 3 Memory Usage: 45512 kilobytes
+Process 7 Memory Usage: 45656 kilobytes
+Process 4 Memory Usage: 45424 kilobytes
+Process 5 Memory Usage: 45672 kilobytes
+Process 2 Memory Usage: 45528 kilobytes
+Process 6 Memory Usage: 45496 kilobytes
+Process 1 Memory Usage: 45560 kilobytes
+Time for MPI_Scatter: 2.030178 seconds
+Process 0 Memory Usage: 85012 kilobytes
+Process 31 Memory Usage: 45508 kilobytes
+Process 30 Memory Usage: 45480 kilobytes
+Process 29 Memory Usage: 45632 kilobytes
+Process 28 Memory Usage: 45688 kilobytes
+Process 27 Memory Usage: 45500 kilobytes
+Process 26 Memory Usage: 45736 kilobytes
+Process 25 Memory Usage: 45568 kilobytes
+Process 24 Memory Usage: 53772 kilobytes
+Process 11 Time for local matrix multiplication: 4.299047 seconds
+Process 11 Memory Usage: 46888 kilobytes
+Process 10 Time for local matrix multiplication: 4.301577 seconds
+Process 10 Memory Usage: 46672 kilobytes
+Process 12 Time for local matrix multiplication: 4.307590 seconds
+Process 12 Memory Usage: 46948 kilobytes
+Process 13 Time for local matrix multiplication: 4.308600 seconds
+Process 13 Memory Usage: 46728 kilobytes
+Process 8 Time for local matrix multiplication: 4.308916 seconds
+Process 8 Memory Usage: 53764 kilobytes
+Process 9 Time for local matrix multiplication: 4.310194 seconds
+Process 9 Memory Usage: 46440 kilobytes
+Process 14 Time for local matrix multiplication: 4.321064 seconds
+Process 14 Memory Usage: 46792 kilobytes
+Process 15 Time for local matrix multiplication: 4.330370 seconds
+Process 15 Memory Usage: 46700 kilobytes
+Process 20 Time for local matrix multiplication: 4.526586 seconds
+Process 20 Memory Usage: 46776 kilobytes
+Process 21 Time for local matrix multiplication: 4.526881 seconds
+Process 21 Memory Usage: 46688 kilobytes
+Process 19 Time for local matrix multiplication: 4.528626 seconds
+Process 19 Memory Usage: 46720 kilobytes
+Process 18 Time for local matrix multiplication: 4.528996 seconds
+Process 18 Memory Usage: 46712 kilobytes
+Process 16 Time for local matrix multiplication: 4.546362 seconds
+Process 16 Memory Usage: 53740 kilobytes
+Process 17 Time for local matrix multiplication: 4.548262 seconds
+Process 17 Memory Usage: 46592 kilobytes
+Process 23 Time for local matrix multiplication: 4.554378 seconds
+Process 23 Memory Usage: 46860 kilobytes
+Process 22 Time for local matrix multiplication: 4.564293 seconds
+Process 22 Memory Usage: 46644 kilobytes
+Process 27 Time for local matrix multiplication: 4.308441 seconds
+Process 27 Memory Usage: 46556 kilobytes
+Process 26 Time for local matrix multiplication: 4.308786 seconds
+Process 26 Memory Usage: 46792 kilobytes
+Process 28 Time for local matrix multiplication: 4.324599 seconds
+Process 28 Memory Usage: 46744 kilobytes
+Process 29 Time for local matrix multiplication: 4.326523 seconds
+Process 29 Memory Usage: 46688 kilobytes
+Process 24 Time for local matrix multiplication: 4.333703 seconds
+Process 24 Memory Usage: 53772 kilobytes
+Process 25 Time for local matrix multiplication: 4.345590 seconds
+Process 25 Memory Usage: 46624 kilobytes
+Process 30 Time for local matrix multiplication: 4.349601 seconds
+Process 30 Memory Usage: 46536 kilobytes
+Process 31 Time for local matrix multiplication: 4.351669 seconds
+Process 31 Memory Usage: 46564 kilobytes
+Process 2 Time for local matrix multiplication: 4.800511 seconds
+Process 2 Memory Usage: 46584 kilobytes
+Process 3 Time for local matrix multiplication: 4.801574 seconds
+Process 3 Memory Usage: 46568 kilobytes
+Process 5 Time for local matrix multiplication: 4.812730 seconds
+Process 5 Memory Usage: 46728 kilobytes
+Process 4 Time for local matrix multiplication: 4.813136 seconds
+Process 4 Memory Usage: 46480 kilobytes
+Process 6 Time for local matrix multiplication: 4.835584 seconds
+Process 6 Memory Usage: 46552 kilobytes
+Process 1 Time for local matrix multiplication: 4.837997 seconds
+Process 1 Memory Usage: 46616 kilobytes
+Process 7 Time for local matrix multiplication: 4.838842 seconds
+Process 7 Memory Usage: 46712 kilobytes
+Process 0 Time for local matrix multiplication: 4.846497 seconds
+Process 0 Memory Usage: 85012 kilobytes
+Process 5 Memory Usage: 46728 kilobytes
+Process 3 Memory Usage: 46568 kilobytes
+Process 7 Memory Usage: 46712 kilobytes
+Process 1 Memory Usage: 46616 kilobytes
+Process 29 Memory Usage: 46688 kilobytes
+Process 23 Memory Usage: 46860 kilobytes
+Process 31 Memory Usage: 46564 kilobytes
+Process 25 Memory Usage: 46624 kilobytes
+Process 19 Memory Usage: 46720 kilobytes
+Process 21 Memory Usage: 46688 kilobytes
+Process 13 Memory Usage: 46728 kilobytes
+Process 27 Memory Usage: 46556 kilobytes
+Process 11 Memory Usage: 46888 kilobytes
+Process 9 Memory Usage: 46440 kilobytes
+Process 17 Memory Usage: 46592 kilobytes
+Process 15 Memory Usage: 46700 kilobytes
+Process 30 Memory Usage: 48444 kilobytes
+Process 2 Memory Usage: 48432 kilobytes
+Process 26 Memory Usage: 48640 kilobytes
+Process 6 Memory Usage: 48448 kilobytes
+Process 10 Memory Usage: 48520 kilobytes
+Process 14 Memory Usage: 48700 kilobytes
+Process 22 Memory Usage: 48552 kilobytes
+Process 18 Memory Usage: 48620 kilobytes
+Process 20 Memory Usage: 50796 kilobytes
+Process 28 Memory Usage: 50764 kilobytes
+Process 12 Memory Usage: 50968 kilobytes
+Process 4 Memory Usage: 50500 kilobytes
+Process 8 Memory Usage: 54968 kilobytes
+Process 16 Memory Usage: 54932 kilobytes
+Process 24 Memory Usage: 54984 kilobytes
+Time for MPI_Gather: 2.036493 seconds
+Process 0 Memory Usage: 116912 kilobytes
+
+--- Matrix Multiplication Results ---
+n: 4000000 (Array size)
+GT: 2.036493 seconds (Generation Time)
+CT: 2.036493 seconds (Calculation Time)
+Total Memory Used: 116912 kilobytes
+Ejecutando con 6 nodos y 48 núcleos
+Process 4 Memory Usage: 44516 kilobytes
+Time for MPI_Bcast: 8.239763 seconds
+Process 0 Memory Usage: 76340 kilobytes
+Process 5 Memory Usage: 44776 kilobytes
+Process 1 Memory Usage: 44676 kilobytes
+Process 6 Memory Usage: 44460 kilobytes
+Process 2 Memory Usage: 44296 kilobytes
+Process 3 Memory Usage: 44504 kilobytes
+Process 7 Memory Usage: 44776 kilobytes
+Process 36 Memory Usage: 44780 kilobytes
+Process 32 Memory Usage: 44944 kilobytes
+Process 37 Memory Usage: 44456 kilobytes
+Process 16 Memory Usage: 44868 kilobytes
+Process 33 Memory Usage: 44520 kilobytes
+Process 38 Memory Usage: 44776 kilobytes
+Process 20 Memory Usage: 44816 kilobytes
+Process 21 Memory Usage: 44856 kilobytes
+Process 34 Memory Usage: 44520 kilobytes
+Process 35 Memory Usage: 44560 kilobytes
+Process 17 Memory Usage: 44672 kilobytes
+Process 22 Memory Usage: 44592 kilobytes
+Process 18 Memory Usage: 44928 kilobytes
+Process 39 Memory Usage: 44536 kilobytes
+Process 19 Memory Usage: 45044 kilobytes
+Process 23 Memory Usage: 45008 kilobytes
+Process 8 Memory Usage: 45032 kilobytes
+Process 12 Memory Usage: 44840 kilobytes
+Process 13 Memory Usage: 44924 kilobytes
+Process 9 Memory Usage: 44516 kilobytes
+Process 14 Memory Usage: 44636 kilobytes
+Process 10 Memory Usage: 44504 kilobytes
+Process 11 Memory Usage: 44980 kilobytes
+Process 15 Memory Usage: 44836 kilobytes
+Process 40 Memory Usage: 44960 kilobytes
+Process 28 Memory Usage: 44760 kilobytes
+Process 44 Memory Usage: 45024 kilobytes
+Process 45 Memory Usage: 44620 kilobytes
+Process 24 Memory Usage: 44844 kilobytes
+Process 29 Memory Usage: 45040 kilobytes
+Process 25 Memory Usage: 44508 kilobytes
+Process 30 Memory Usage: 44764 kilobytes
+Process 41 Memory Usage: 44888 kilobytes
+Process 46 Memory Usage: 44788 kilobytes
+Process 26 Memory Usage: 44472 kilobytes
+Process 27 Memory Usage: 45136 kilobytes
+Process 42 Memory Usage: 44892 kilobytes
+Process 31 Memory Usage: 45072 kilobytes
+Process 47 Memory Usage: 44568 kilobytes
+Process 43 Memory Usage: 44524 kilobytes
+Process 15 Memory Usage: 45420 kilobytes
+Process 14 Memory Usage: 45484 kilobytes
+Process 13 Memory Usage: 45508 kilobytes
+Process 12 Memory Usage: 45424 kilobytes
+Process 10 Memory Usage: 45352 kilobytes
+Process 11 Memory Usage: 45564 kilobytes
+Process 9 Memory Usage: 45364 kilobytes
+Process 8 Memory Usage: 50896 kilobytes
+Process 23 Memory Usage: 45592 kilobytes
+Process 21 Memory Usage: 45440 kilobytes
+Process 22 Memory Usage: 45384 kilobytes
+Process 20 Memory Usage: 45400 kilobytes
+Process 19 Memory Usage: 45628 kilobytes
+Process 18 Memory Usage: 45512 kilobytes
+Process 17 Memory Usage: 45520 kilobytes
+Process 16 Memory Usage: 50732 kilobytes
+Process 31 Memory Usage: 45656 kilobytes
+Process 26 Memory Usage: 45264 kilobytes
+Process 30 Memory Usage: 45348 kilobytes
+Process 29 Memory Usage: 45624 kilobytes
+Process 28 Memory Usage: 45344 kilobytes
+Process 25 Memory Usage: 45356 kilobytes
+Process 24 Memory Usage: 50708 kilobytes
+Process 27 Memory Usage: 45720 kilobytes
+Process 39 Memory Usage: 45384 kilobytes
+Process 38 Memory Usage: 45360 kilobytes
+Process 37 Memory Usage: 45304 kilobytes
+Process 36 Memory Usage: 45308 kilobytes
+Process 35 Memory Usage: 45408 kilobytes
+Process 34 Memory Usage: 45368 kilobytes
+Process 33 Memory Usage: 45368 kilobytes
+Process 32 Memory Usage: 50808 kilobytes
+Process 7 Memory Usage: 45360 kilobytes
+Process 6 Memory Usage: 45308 kilobytes
+Process 2 Memory Usage: 45144 kilobytes
+Process 5 Memory Usage: 45348 kilobytes
+Process 3 Memory Usage: 45352 kilobytes
+Process 4 Memory Usage: 45364 kilobytes
+Process 1 Memory Usage: 45260 kilobytes
+Time for MPI_Scatter: 2.233540 seconds
+Process 0 Memory Usage: 81940 kilobytes
+Process 47 Memory Usage: 45416 kilobytes
+Process 46 Memory Usage: 45372 kilobytes
+Process 45 Memory Usage: 45204 kilobytes
+Process 44 Memory Usage: 45608 kilobytes
+Process 43 Memory Usage: 45372 kilobytes
+Process 42 Memory Usage: 45476 kilobytes
+Process 41 Memory Usage: 45472 kilobytes
+Process 40 Memory Usage: 50824 kilobytes
+Process 11 Time for local matrix multiplication: 2.852559 seconds
+Process 11 Memory Usage: 46092 kilobytes
+Process 10 Time for local matrix multiplication: 2.853623 seconds
+Process 10 Memory Usage: 45880 kilobytes
+Process 12 Time for local matrix multiplication: 2.854289 seconds
+Process 12 Memory Usage: 45952 kilobytes
+Process 9 Time for local matrix multiplication: 2.859151 seconds
+Process 9 Memory Usage: 45892 kilobytes
+Process 13 Time for local matrix multiplication: 2.863110 seconds
+Process 13 Memory Usage: 46036 kilobytes
+Process 15 Time for local matrix multiplication: 2.878651 seconds
+Process 15 Memory Usage: 45948 kilobytes
+Process 8 Time for local matrix multiplication: 2.884961 seconds
+Process 8 Memory Usage: 50896 kilobytes
+Process 14 Time for local matrix multiplication: 2.893741 seconds
+Process 14 Memory Usage: 46012 kilobytes
+Process 20 Time for local matrix multiplication: 3.031822 seconds
+Process 20 Memory Usage: 45928 kilobytes
+Process 19 Time for local matrix multiplication: 3.031971 seconds
+Process 19 Memory Usage: 46156 kilobytes
+Process 21 Time for local matrix multiplication: 3.032219 seconds
+Process 21 Memory Usage: 45968 kilobytes
+Process 18 Time for local matrix multiplication: 3.032264 seconds
+Process 18 Memory Usage: 46040 kilobytes
+Process 22 Time for local matrix multiplication: 3.041138 seconds
+Process 22 Memory Usage: 45912 kilobytes
+Process 23 Time for local matrix multiplication: 3.041383 seconds
+Process 23 Memory Usage: 46120 kilobytes
+Process 16 Time for local matrix multiplication: 3.041336 seconds
+Process 16 Memory Usage: 50732 kilobytes
+Process 17 Time for local matrix multiplication: 3.041851 seconds
+Process 17 Memory Usage: 46048 kilobytes
+Process 29 Time for local matrix multiplication: 2.851357 seconds
+Process 29 Memory Usage: 46152 kilobytes
+Process 26 Time for local matrix multiplication: 2.854185 seconds
+Process 26 Memory Usage: 45792 kilobytes
+Process 28 Time for local matrix multiplication: 2.857060 seconds
+Process 28 Memory Usage: 45872 kilobytes
+Process 25 Time for local matrix multiplication: 2.858908 seconds
+Process 25 Memory Usage: 45884 kilobytes
+Process 24 Time for local matrix multiplication: 2.858642 seconds
+Process 24 Memory Usage: 50708 kilobytes
+Process 27 Time for local matrix multiplication: 2.865842 seconds
+Process 27 Memory Usage: 46248 kilobytes
+Process 31 Time for local matrix multiplication: 2.867241 seconds
+Process 31 Memory Usage: 46184 kilobytes
+Process 30 Time for local matrix multiplication: 2.872028 seconds
+Process 30 Memory Usage: 45876 kilobytes
+Process 34 Time for local matrix multiplication: 2.837243 seconds
+Process 34 Memory Usage: 45896 kilobytes
+Process 35 Time for local matrix multiplication: 2.837610 seconds
+Process 35 Memory Usage: 45936 kilobytes
+Process 37 Time for local matrix multiplication: 2.847592 seconds
+Process 37 Memory Usage: 45832 kilobytes
+Process 36 Time for local matrix multiplication: 2.847938 seconds
+Process 36 Memory Usage: 45836 kilobytes
+Process 32 Time for local matrix multiplication: 2.860048 seconds
+Process 32 Memory Usage: 50808 kilobytes
+Process 39 Time for local matrix multiplication: 2.867985 seconds
+Process 39 Memory Usage: 45912 kilobytes
+Process 33 Time for local matrix multiplication: 2.869794 seconds
+Process 33 Memory Usage: 45896 kilobytes
+Process 38 Time for local matrix multiplication: 2.872064 seconds
+Process 38 Memory Usage: 45888 kilobytes
+Process 42 Time for local matrix multiplication: 2.938414 seconds
+Process 42 Memory Usage: 46004 kilobytes
+Process 43 Time for local matrix multiplication: 2.940312 seconds
+Process 43 Memory Usage: 45900 kilobytes
+Process 41 Time for local matrix multiplication: 2.954090 seconds
+Process 41 Memory Usage: 46000 kilobytes
+Process 45 Time for local matrix multiplication: 2.955678 seconds
+Process 45 Memory Usage: 45732 kilobytes
+Process 40 Time for local matrix multiplication: 2.962756 seconds
+Process 40 Memory Usage: 50824 kilobytes
+Process 44 Time for local matrix multiplication: 2.971513 seconds
+Process 44 Memory Usage: 46136 kilobytes
+Process 47 Time for local matrix multiplication: 2.979566 seconds
+Process 47 Memory Usage: 45944 kilobytes
+Process 46 Time for local matrix multiplication: 2.982983 seconds
+Process 46 Memory Usage: 45900 kilobytes
+Process 3 Time for local matrix multiplication: 3.172835 seconds
+Process 3 Memory Usage: 45880 kilobytes
+Process 2 Time for local matrix multiplication: 3.173041 seconds
+Process 2 Memory Usage: 45672 kilobytes
+Process 4 Time for local matrix multiplication: 3.187598 seconds
+Process 4 Memory Usage: 45892 kilobytes
+Process 5 Time for local matrix multiplication: 3.187917 seconds
+Process 5 Memory Usage: 45876 kilobytes
+Process 1 Time for local matrix multiplication: 3.197486 seconds
+Process 1 Memory Usage: 46052 kilobytes
+Process 0 Time for local matrix multiplication: 3.201342 seconds
+Process 0 Memory Usage: 81940 kilobytes
+Process 7 Time for local matrix multiplication: 3.205396 seconds
+Process 7 Memory Usage: 45888 kilobytes
+Process 6 Time for local matrix multiplication: 3.210599 seconds
+Process 6 Memory Usage: 45836 kilobytes
+Process 25 Memory Usage: 45884 kilobytes
+Process 9 Memory Usage: 45892 kilobytes
+Process 5 Memory Usage: 45876 kilobytes
+Process 3 Memory Usage: 45880 kilobytes
+Process 27 Memory Usage: 46248 kilobytes
+Process 1 Memory Usage: 46052 kilobytes
+Process 29 Memory Usage: 46416 kilobytes
+Process 31 Memory Usage: 46184 kilobytes
+Process 11 Memory Usage: 46092 kilobytes
+Process 13 Memory Usage: 46036 kilobytes
+Process 43 Memory Usage: 45900 kilobytes
+Process 37 Memory Usage: 45832 kilobytes
+Process 17 Memory Usage: 46048 kilobytes
+Process 7 Memory Usage: 46152 kilobytes
+Process 39 Memory Usage: 45912 kilobytes
+Process 35 Memory Usage: 45936 kilobytes
+Process 19 Memory Usage: 46156 kilobytes
+Process 23 Memory Usage: 46384 kilobytes
+Process 15 Memory Usage: 45948 kilobytes
+Process 2 Memory Usage: 47052 kilobytes
+Process 41 Memory Usage: 46000 kilobytes
+Process 45 Memory Usage: 45732 kilobytes
+Process 33 Memory Usage: 45896 kilobytes
+Process 21 Memory Usage: 45968 kilobytes
+Process 47 Memory Usage: 45944 kilobytes
+Process 26 Memory Usage: 47172 kilobytes
+Process 10 Memory Usage: 47260 kilobytes
+Process 42 Memory Usage: 47384 kilobytes
+Process 38 Memory Usage: 47208 kilobytes
+Process 14 Memory Usage: 47392 kilobytes
+Process 18 Memory Usage: 47420 kilobytes
+Process 30 Memory Usage: 47196 kilobytes
+Process 46 Memory Usage: 47220 kilobytes
+Process 34 Memory Usage: 47276 kilobytes
+Process 22 Memory Usage: 47292 kilobytes
+Process 6 Memory Usage: 47224 kilobytes
+Process 4 Memory Usage: 48584 kilobytes
+Process 28 Memory Usage: 48576 kilobytes
+Process 20 Memory Usage: 48576 kilobytes
+Process 12 Memory Usage: 48656 kilobytes
+Process 44 Memory Usage: 48836 kilobytes
+Process 36 Memory Usage: 48536 kilobytes
+Process 8 Memory Usage: 51476 kilobytes
+Process 16 Memory Usage: 51304 kilobytes
+Process 24 Memory Usage: 51320 kilobytes
+Process 32 Memory Usage: 51472 kilobytes
+Process 40 Memory Usage: 51492 kilobytes
+Time for MPI_Gather: 2.250480 seconds
+Process 0 Memory Usage: 113524 kilobytes
+
+--- Matrix Multiplication Results ---
+n: 4000000 (Array size)
+GT: 2.250480 seconds (Generation Time)
+CT: 2.250480 seconds (Calculation Time)
+Total Memory Used: 113524 kilobytes
